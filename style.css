@@ -1,0 +1,313 @@
+body {
+  margin: 0;
+  font-family: "Encode Sans";
+}
+
+/* Menu CSS */
+.top-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #f5f6f7;
+}
+
+.brand-link {
+  text-decoration: none;
+}
+
+.brand {
+  width: 171px;
+  height: 36px;
+}
+
+.top-links {
+  font-weight: 700;
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #f5f6f7;
+}
+
+.top-links a {
+  text-decoration: none;
+}
+
+.g1 {
+  color: #c3170c;
+}
+
+.g1:hover {
+  color: #f03018;
+}
+
+.o-globo {
+  color: #1e4b9b;
+}
+
+.o-globo:hover {
+  color: #4b70ae;
+}
+
+.valor {
+  color: #006766;
+}
+
+.valor:hover {
+  color: #378787;
+}
+
+.ge {
+  color: #07aa47;
+}
+
+.ge:hover {
+  color: #1fb25a;
+}
+
+.cartola {
+  color: #e3662b;
+}
+
+.cartola:hover {
+  color: #ff9034;
+}
+
+.globoplay {
+  color: #fb0735;
+}
+
+.globoplay:hover {
+  color: #fc355d;
+}
+
+.dropz {
+  color: #ff75bb;
+}
+
+.dropz:hover {
+  color: #ff91c8;
+}
+
+.gshow {
+  color: #ec7d00;
+}
+
+.gshow:hover {
+  color: #ff9f00;
+}
+
+.quem {
+  color: #323333;
+}
+
+.quem:hover {
+  color: #5c5c5c;
+}
+
+.receitas {
+  color: #a81d83;
+}
+
+.receitas:hover {
+  color: #b74397;
+}
+
+/*section left CSS*/
+.section-left {
+  width: 624px;
+  padding-right: 30px;
+  margin-top: 34px;
+  /*background-color: white;*/
+  border-right: 1px solid #ebedef;
+}
+
+/*container CSS*/
+.container {
+  width: 100%;
+  /*background-color: red;*/
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 1250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*background-color: gray;*/
+  padding-bottom: 50px;
+}
+
+.main-news {
+  width: 624px;
+  margin-right: 42px;
+  /*background-color: white;*/
+  padding-bottom: 25px;
+}
+
+.title-news {
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+  margin-top: 0;
+  margin-bottom: 29px;
+}
+
+.title-news:hover {
+  color: #f03018;
+}
+
+.subtitle-news {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.subtitle-news li {
+  margin-bottom: 9px;
+}
+
+.subtitle-news .individual-news-link {
+  text-decoration: none;
+  color: #303134;
+}
+
+.general-news {
+  width: 624px;
+  /*background-color: white;*/
+}
+
+.row-news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  border-top: 1px solid #ebedef;
+}
+
+.row-news-two {
+  margin-bottom: 0;
+}
+
+.individual-news {
+  width: 200px;
+  margin-top: 25px;
+}
+
+.individual-news-img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+.individual-news-link {
+  text-decoration: none;
+}
+
+.individual-news-title {
+  margin-top: 11px;
+  margin-bottom: 6px;
+}
+
+.individual-news-title .individual-news-link {
+  font-weight: 500;
+  font-size: 14px;
+  color: #c4170c;
+}
+
+.individual-news-subtitle {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.individual-news-subtitle .individual-news-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: #2f3134;
+}
+
+.individual-news-description {
+  margin-top: 0;
+}
+
+.individual-news-description .individual-news-link {
+  font-size: 14px;
+  color: #2f3134;
+}
+
+.section-center {
+  width: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-right: 20px;
+  border-right: 1px solid #ebedef;
+  /*background-color: white;*/
+  margin-top: 34px;
+}
+
+.individual-news-center {
+  width: 100%;
+  margin-top: 35px;
+}
+
+.individual-news-center-one {
+  margin-top: 0;
+}
+
+.individual-news-img-center {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+.individual-news-title-center {
+  margin-top: 11px;
+  margin-bottom: 6px;
+}
+
+.individual-news-title-center .individual-news-link {
+  color: #16ae54;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.section-right {
+  width: 250px;
+  /*background-color: white;*/
+  margin-top: 34px;
+}
+
+.individual-news-right {
+  width: 100%;
+  margin-top: 35px;
+}
+
+.individual-news-right-one {
+  margin-top: 0;
+}
+
+.individual-news-img-right {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+.individual-news-title-right {
+  margin-top: 11px;
+  margin-bottom: 6px;
+}
+
+.individual-news-title-right .individual-news-link {
+  color: #ec8006;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+ul {
+  padding: 0;
+}
+
+ul.individual-news-description li {
+  margin-bottom: 9px;
+}
